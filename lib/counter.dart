@@ -15,7 +15,16 @@ class _CounterState extends State<Counter> {
 
   void decrement() {
     setState(() {
-      _counter--;
+      if(_counter > 0) {
+        _counter--;
+      } else {
+        ScaffoldMessenger.of(context).showSnackBar(
+         const SnackBar(
+          content: Text('Ops! Counter cannot be negative'),
+          duration: Duration(seconds: 2)
+        ),
+      );
+      }
     });
   }
 
