@@ -1,6 +1,12 @@
-# counter_app
+# Counter App
 
-A new Flutter project.
+A basic flutter application to practice stateful widgets where there are three buttons:
+1. Increment,
+2. Decrement,
+3. Reset,
+and the display is updated according to the user interaction.
+
+![counter_app.gif](counter_app.gif)
 
 ## Getting Started
 
