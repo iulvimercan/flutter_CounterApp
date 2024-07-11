@@ -10,7 +10,8 @@ void main() {
             title: const Text(
                 'Counter App',
                 style: TextStyle(
-                  color: Colors.purple,
+                  color: AppColors.text,
+                  fontWeight: FontWeight.w700,
                 ),
             ),
             backgroundColor: AppColors.primary,
